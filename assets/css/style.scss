@@ -1,0 +1,116 @@
+body {
+
+  .bg-img {
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
+  }
+  .main-page {
+    .main-page-body{
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+
+      img {
+        height: 30%;
+        width: 30%;
+        border-radius: 50%;
+      }
+      .name{
+        padding-top: 5rem;
+        .title {
+          font-weight: bold;
+          font-size: 4rem;
+        }
+      }
+    }
+  }
+
+  .about-me {
+    .about-details {
+      padding-bottom: 5rem;
+      padding-top: 5rem;
+      background-color: #00b89c;
+
+      .experience {
+        padding-top: 2rem;
+
+      }
+    }
+    .title {
+      padding-top: 2rem;
+    }
+    .description {
+      padding-top: 2rem;
+    }
+  }
+
+  .project-experience {
+    .project-experience-details{
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+      //background-color: #ff1f4b;
+    }
+
+    table {
+      //background-color: #ff0561;
+    }
+
+    th.project-title {
+        padding: 2rem;
+      }
+
+    td.details {
+        padding: 2rem;
+      }
+  }
+
+  .proficiency {
+    table {
+      width: 100%;
+    }
+
+    td {
+      padding: 2rem;
+    }
+
+  }
+
+  .accomplishments {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    background-color: #16a085;
+    .awards {
+      padding-left: 5rem;
+      .award {
+        padding-top: 1rem;
+        padding-left: 5rem;
+        padding-bottom: 1rem;
+        .issuer, .desc {
+          padding-left: 1.6rem;
+        }
+      }
+    }
+  }
+
+  .connect-me {
+    .connect-details {
+      padding-bottom: 5rem;
+      padding-top: 5rem;
+      background-color: #b85047;
+
+      .experience {
+        padding-top: 2rem;
+
+        td {
+          padding-top: 2rem;
+        }
+
+      }
+    }
+    .title {
+      padding-top: 2rem;
+    }
+  }
+}

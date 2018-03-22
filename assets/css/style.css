@@ -1,0 +1,63 @@
+body .bg-img {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #999; }
+body .main-page .main-page-body {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+  body .main-page .main-page-body img {
+    height: 30%;
+    width: 30%;
+    border-radius: 50%; }
+  body .main-page .main-page-body .name {
+    padding-top: 5rem; }
+    body .main-page .main-page-body .name .title {
+      font-weight: bold;
+      font-size: 4rem; }
+body .about-me .about-details {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  background-color: #00b89c; }
+  body .about-me .about-details .experience {
+    padding-top: 2rem; }
+body .about-me .title {
+  padding-top: 2rem; }
+body .about-me .description {
+  padding-top: 2rem; }
+body .project-experience .project-experience-details {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+body .project-experience th.project-title {
+  padding: 2rem; }
+body .project-experience td.details {
+  padding: 2rem; }
+body .proficiency table {
+  width: 100%; }
+body .proficiency td {
+  padding: 2rem; }
+body .accomplishments {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  background-color: #16a085; }
+  body .accomplishments .awards {
+    padding-left: 5rem; }
+    body .accomplishments .awards .award {
+      padding-top: 1rem;
+      padding-left: 5rem;
+      padding-bottom: 1rem; }
+      body .accomplishments .awards .award .issuer, body .accomplishments .awards .award .desc {
+        padding-left: 1.6rem; }
+body .connect-me .connect-details {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  background-color: #b85047; }
+  body .connect-me .connect-details .experience {
+    padding-top: 2rem; }
+    body .connect-me .connect-details .experience td {
+      padding-top: 2rem; }
+body .connect-me .title {
+  padding-top: 2rem; }
+
+/*# sourceMappingURL=style.css.map */
